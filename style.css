@@ -1,6 +1,6 @@
 body {
     display: flex;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     flex-direction: column;
 }
 
@@ -124,7 +124,8 @@ button {
 
 .third-section {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: right;
     height: 300px;
     padding-left: 320px;
     padding-right: 320px;
@@ -136,7 +137,7 @@ button {
 
 .third-section p {
     font-size: 36px;
-    font-weight: 100;
+    font-weight: 300;
     font-style: italic;
     color: #1f2937;
 }
