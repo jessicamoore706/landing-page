@@ -1,6 +1,6 @@
 body {
     display: flex;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     flex-direction: column;
 }
 
@@ -149,36 +149,43 @@ button {
 
 .box {
     display: flex;
-    flex-direction: column;
     background-color: #3882F6;
-    width: 900px;
-    height: 120px;
-    padding-left: 90px;
-    margin: 80px;
+    width: 700px;
+    height: 80px;
+    padding: 20px;
+    margin: 70px;
     border-radius: 8px;
-    gap: 6px;
-}
-
-h3 {
     color: #E5E7EB;
-    padding: 0;
-    margin: 0;
-}
-
-.box p {
-    color: #E5E7EB;
-    padding: 0;
-    margin: 0;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .call-to-action {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+
+}
+
+h3 {
+    margin-left: 50px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+}
+
+.box p {
+    margin-left: 50px;
+    margin-top: 0px;
+    padding-top: 0px;
 }
 
 .box button {
     display: flex;
-    margin-right: 0;
     margin-left: auto;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
 }
